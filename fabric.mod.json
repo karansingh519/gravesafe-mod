@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gravesafe",
+  "version": "1.0.0",
+  "name": "GraveSafe",
+  "description": "Shows and logs player death coordinates, with clickable teleport suggestions.",
+  "authors": ["Chetana Rawat"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chetana.gravesafe.GraveSafe"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.12",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
